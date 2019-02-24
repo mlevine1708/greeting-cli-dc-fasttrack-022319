@@ -1,7 +1,8 @@
 # code the #greeting method here!
 
-greeting = "Micah"
-
-puts "Hello #{greeting}.  It's nice to meet you."
 
 
+output = capture_puts{ greeting("Micah") }
+
+      expect(output).to include("Hello Sally. It's nice to meet you.")
+    end
