@@ -1,6 +1,6 @@
 # code the #greeting method here!
 
-#greeting = "name"
+greeting = "Micah"
 
 puts "Hello #{greeting}.  It's nice to meet you."
 
