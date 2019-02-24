@@ -1,2 +1,7 @@
 # code the #greeting method here!
-def greeting =  
+
+greeting = "name"
+
+puts "Hello #{greeting}.  It's nice to meet you."
+
+
